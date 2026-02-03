@@ -1,0 +1,10 @@
+name: Demo
+on:
+  workflow_dispatch:
+
+jobs:
+  demo:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Demo step
+        run: echo "This is a mock workflow."
